@@ -3,7 +3,9 @@ body
 {
     height: 100%;
     margin: 0;  
-    font-family: "Segoe UI";    
+    font-family: "Segoe UI";
+    display: flex;
+    flex-direction: column;    
 
 }
 :root
@@ -13,6 +15,8 @@ body
   --accent:#D31C19;
   --text:white;
 }
+
+/* ////////////////////  HEADER  /////////////////// */
 
 header
 {
@@ -45,7 +49,6 @@ nav
   text-align: center;
  
 
- 
 }
 nav a
 {
@@ -55,14 +58,11 @@ text-decoration: none;
 color: #3D3C3F;
 font-weight: bold;
 }
+
 nav a:hover
 {
 color: #182092 
 }
 
+/* /////////////////////  MAIN //////////////// */
 
-
-.suchfeld
-{
-  width: 15%;
-}

@@ -21,13 +21,14 @@ header
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary);
-  padding: 0 10px;
+ padding-top: 25px;
+
 }
 .logo
 {
-  width: 15%;
-  padding:;
+  width: 20%;
+  padding-top: 10px;
+
   
 }
 .logo img
@@ -43,17 +44,20 @@ nav
   align-items: center;
   text-align: center;
  
+
+ 
 }
 nav a
 {
 
 flex-grow: 1;
 text-decoration: none;
-color: var(--text);
+color: #3D3C3F;
+font-weight: bold;
 }
 nav a:hover
 {
-  background-color: #2e3383 
+color: #182092 
 }
 
 

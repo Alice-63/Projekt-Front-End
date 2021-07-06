@@ -27,7 +27,7 @@ header
   justify-content: center;
   align-items: center;
   padding-top: 25px;
-  position:absolute;
+  position:relative;
 
 }
 .logo
@@ -68,3 +68,37 @@ color: #182092
 
 /* /////////////////////  MAIN //////////////// */
 
+.slider
+{
+  position:absolute;
+  width: 100%;
+  margin-top: 15px;
+}
+#bild
+{
+  width:100%;
+  background-image: url(img/1.png);
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  color: var(--text);
+ 
+}
+#bild i
+{
+  font-size: 4em;
+  
+}
+#bild button
+{
+  outline: none;
+  border: none;
+  opacity: 0.3;
+  cursor: pointer;
+}
+#bild button:hover
+{
+  opacity: 0.5;
+}

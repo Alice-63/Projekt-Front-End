@@ -12,10 +12,10 @@
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png" alt="">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
         </div>
         <nav>
-            <a href="home.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="ueberuns.html">Über Uns</a>
             <a href="kontakt.html">Kontakt</a>
         </nav>
@@ -23,8 +23,26 @@
     </header>
     <main>
         <section class="slider">
-            <i class="fas fa-angle-right"></i>
-            <i class="fas fa-angle-left"></i>
+            <div id="bild1"> 
+                <h1 id="h1">Herzlichen Wilkommen</h1>
+                <img src="img/1.png" alt="">
+            </div>
+            <div id="bild2">
+                <h1 id="h2">Herzlichen</h1>
+                <img src="img/2.png" alt="">
+            </div>
+            <div id="bild3"> 
+                <h1 id="h3">Wilkommen</h1>
+                <img src="img/3.png" alt="">
+            </div>
+            
+            
+           
+            <button id="weiter" onclick="next ();"><i class="fas fa-chevron-right"></i></button>
+            <button id="zurueck" onclick="prev ();" ><i class="fas fa-chevron-left"></i></button>
+           
+            
+           
         </section>
         <section class="leistungen"></section>
         <section class="unserteam"></section>
@@ -37,4 +55,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> 

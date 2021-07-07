@@ -27,7 +27,8 @@ header
   justify-content: center;
   align-items: center;
   padding-top: 25px;
-  position:relative;
+  margin-bottom: 20px;
+  
 
 }
 .logo
@@ -59,26 +60,41 @@ flex-grow: 1;
 text-decoration: none;
 color: #3D3C3F;
 font-weight: bold;
+padding: 20px;
+transition: transform 0.3s;
 }
 
 nav a:hover
 {
-color: #182092 
+color: #182092 ;
+font-weight: bold;
+transform: scale(120%);
+
 }
 
 /* /////////////////////  MAIN //////////////// */
+main
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .slider
 {
-  position:absolute;
   width: 100%;
   margin-top: 15px;
+  margin-bottom: 125px;
 }
 #bild
 {
   width:100%;
   background-image: url(img/1.png);
-  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,4 +117,70 @@ color: #182092
 #bild button:hover
 {
   opacity: 0.5;
+}
+
+
+/*///////////////////// leistungen ////////////////////// */
+
+.leistungen
+{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+}
+
+.leistungenBox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px;
+  padding-bottom: 90px;
+  flex-grow: 1;
+  margin: 10px;
+  box-shadow: -1px 1px 9px -1px #000000;
+  border-radius: 10px;
+}
+.leistungenBox span
+{
+  padding: 0 50px;
+}
+.leistungenBox button
+{
+  background-color: var(--accent);
+  
+  border-radius: 5px;
+  padding:10px 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+  font-weight: bold;
+  margin: 10px 0;
+}
+.leistungenBox button:hover
+{
+  opacity: 0.9;
+}
+
+.card
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.card i
+{
+  font-size: 100px;
+  color: white;
+  cursor: pointer;
 }

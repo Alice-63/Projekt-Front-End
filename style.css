@@ -184,3 +184,53 @@ main
   color: white;
   cursor: pointer;
 }
+
+/* ///////////////////// UNSERTEAM //////////////// */
+
+
+.unserteam
+{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+}
+.ourteam
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px 5px;
+  flex-grow: 1;
+  margin: 10px;
+  box-shadow: -1px 1px 9px -1px #000000;
+  border-radius: 10px;
+  
+}
+.foto img
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+ 
+}
+.ourteam span
+{
+margin-bottom: 10px;
+}
+.social
+{
+  display: flex;
+  justify-content:space-between;
+}
+.social i
+{
+margin: 5px;
+cursor: pointer;
+color: var(--primary);
+font-size: 1.2em;
+}

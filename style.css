@@ -30,7 +30,7 @@ header
   padding-top: 15px;
   background-color:white ;
   position: fixed;
-  border-bottom: 1px solid #3D3C3F;
+  border-bottom: 1px solid #5c5b5e;
   
 
 }
@@ -132,7 +132,9 @@ main
 .leistungen
 {
   width: 100%;
-  margin-bottom: 125px;
+  margin-bottom: 200px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   background-color:white ;
 }
 .leistungBigBox
@@ -208,6 +210,8 @@ main
   justify-content: space-between;
   margin-bottom: 125px;
   background-color:white ;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 .ourteam
 {

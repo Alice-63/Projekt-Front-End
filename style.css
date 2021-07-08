@@ -208,7 +208,7 @@ main
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 125px;
+  /* margin-bottom: 125px; */
   background-color:white ;
   padding-top: 10vh;
   padding-bottom: 10vh;
@@ -255,4 +255,80 @@ margin: 5px;
 cursor: pointer;
 color: var(--primary);
 font-size: 1.2em;
+}
+
+/* //////////////////// FOOTER ////////////////////// */
+
+footer
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footerTop
+{
+  
+  display: flex;
+  justify-content: space-between;
+  background-color:whitesmoke ;
+  padding:45px;
+  border-bottom: 1px solid #5c5b5e;
+}
+
+.footerBox
+{
+  display: flex;
+}
+
+.footerBox span
+{
+  font-weight: bold;
+  color: #3D3C3F;
+  font-size: 1.1em;
+  
+}
+.contactSection, .adressSection, .mailSection
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.icon
+{
+
+  padding: 20px
+}
+.footerBox h4
+{
+  margin-bottom: 5px;
+}
+.footerBox i
+{
+font-size: 45px;
+color: var(--primary);
+}
+
+.mail, .adress, .tlf
+{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+.footerBottom
+{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color:whitesmoke ;
+  padding:45px;
+ 
 }

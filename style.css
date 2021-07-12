@@ -6,10 +6,14 @@ body
     font-family: "Segoe UI";
     display: flex;
     flex-direction: column;
-    background:url(img/2.png) center top fixed;  
-    
-     
-
+    background:url(img/2.png) center transparent fixed; 
+    position: absolute;
+}
+.wrap
+{
+  background-color: rgba(0, 0, 0, 0);
+  position:relative;
+  width: 100%;
 }
 :root
 {
@@ -325,10 +329,17 @@ color: var(--primary);
 
 .footerBottom
 {
-  height: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   background-color:whitesmoke ;
-  padding:45px;
+  padding: 20px;
  
+}
+.footerBottom div
+{
+  display: flex;
+  
+
 }

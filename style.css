@@ -81,6 +81,13 @@ font-weight: bold;
 transform: scale(120%);
 
 }
+nav #aktiv
+
+{
+color: #182092 ;
+font-weight: bold;
+transform: scale(120%);
+}
 
 /* /////////////////////  MAIN //////////////// */
 main
@@ -336,10 +343,4 @@ color: var(--primary);
   background-color:whitesmoke ;
   padding: 20px;
  
-}
-.footerBottom div
-{
-  display: flex;
-  
-
 }

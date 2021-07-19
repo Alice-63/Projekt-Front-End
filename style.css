@@ -220,7 +220,7 @@ main
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
-.ourteam
+.teamBox
 {
   width: 100%;
   display: flex;
@@ -247,7 +247,7 @@ main
 {
   border:1px solid var(--primary);
 }
-.ourteam span
+.teamBox span
 {
 margin-bottom: 10px;
 }

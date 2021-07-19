@@ -9,12 +9,7 @@ body
     background:url(img/2.png) center transparent fixed; 
     position: absolute;
 }
-.wrap
-{
-  background-color: rgba(0, 0, 0, 0);
-  position:relative;
-  width: 100%;
-}
+
 :root
 {
   --primary:#1D2268 ;
@@ -137,12 +132,6 @@ main
   opacity: 0.5;
 }
 
-/* Main Ueberuns */
-
-main>p
-{
-  background-color: #000000;
-}
 
 
 /*///////////////////// leistungen ////////////////////// */

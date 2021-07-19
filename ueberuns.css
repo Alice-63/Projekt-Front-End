@@ -1,0 +1,181 @@
+*{box-sizing: border-box;}
+body
+{
+    height: 100%;
+    margin: 0;  
+    font-family: "Segoe UI";
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+}
+
+:root
+{
+  --primary:#43477e ;
+  --secondary:#e15a1c;
+  --accent:#D31C19;
+  --text:white;
+}
+
+/* ////////////////////  HEADER  /////////////////// */
+
+header
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  background-color:white ;
+  position: relative;
+  border-bottom: 1px solid #5c5b5e;
+  
+
+}
+.logo
+{
+  width: 20%;
+  padding-top: 10px;
+  background-color:white ;
+
+  
+}
+.logo img
+{
+  width: 100%;
+ 
+}
+nav
+{
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  
+ 
+ 
+
+}
+nav a
+{
+
+flex-grow: 1;
+text-decoration: none;
+color: #3D3C3F;
+font-weight: bold;
+padding: 20px;
+transition: transform 0.3s;
+}
+
+nav a:hover
+{
+color: #182092 ;
+font-weight: bold;
+transform: scale(120%);
+
+}
+nav #aktiv
+
+{
+color: #182092 ;
+font-weight: bold;
+transform: scale(120%);
+}
+
+/* //////////////////UEBERUNS MAIN////////////////// */
+
+main
+{
+    width: 100%;
+    height: 100vh;
+    position:absoulute;
+    background-color: var(--primary);
+    padding-top: 25px;
+}
+
+main p
+{
+    width:70%;
+   font-size: 20px;
+   line-height: 1.8;
+   margin: 0 auto;
+   color: white;
+}
+
+/* //////////////////// FOOTER ////////////////////// */
+
+footer
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footerTop
+{
+  
+  display: flex;
+  justify-content: space-between;
+  background-color:whitesmoke ;
+  padding:25px;
+  border-bottom: 1px solid #5c5b5e;
+}
+
+.footerBox
+{
+  display: flex;
+}
+
+.footerBox span
+{
+  font-weight: bold;
+  color: #3D3C3F;
+  font-size: 1.1em;
+  
+}
+.contactSection, .adressSection, .mailSection
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.icon
+{
+
+  padding: 20px
+}
+.footerBox h4
+{
+  margin-bottom: 5px;
+}
+.footerBox i
+{
+font-size: 45px;
+color: var(--primary);
+}
+
+.mail, .adress, .tlf
+{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+.footerBottom
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color:whitesmoke ;
+  padding: 5px;
+ 
+}

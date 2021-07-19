@@ -137,6 +137,13 @@ main
   opacity: 0.5;
 }
 
+/* Main Ueberuns */
+
+main>p
+{
+  background-color: #000000;
+}
+
 
 /*///////////////////// leistungen ////////////////////// */
 

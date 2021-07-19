@@ -6,12 +6,12 @@ body
     font-family: "Segoe UI";
     display: flex;
     flex-direction: column;
-    /* position: absolute; */
+   
 }
 
 :root
 {
-  --primary:#43477e ;
+  --primary:#1D2268 ;
   --secondary:#e15a1c;
   --accent:#D31C19;
   --text:white;
@@ -27,7 +27,7 @@ header
   align-items: center;
   padding-top: 15px;
   background-color:white ;
-  position: relative;
+  /* position: fixed; */
   border-bottom: 1px solid #5c5b5e;
   
 
@@ -83,27 +83,8 @@ font-weight: bold;
 transform: scale(120%);
 }
 
-/* //////////////////UEBERUNS MAIN////////////////// */
+/* /////////////////////  MAIN //////////////// */
 
-main
-{
-    width: 100%;
-    min-height: 100vh;
-    position:absoulute;
-    background-color: var(--primary);
-    padding: 25px 0;
-    display: flex;
-}
-
-
-main p
-{
-   width:50%;
-   font-size: 20px;
-   line-height: 1.8;
-   margin: 0 auto;
-   color: white;
-}
 
 /* //////////////////// FOOTER ////////////////////// */
 
@@ -119,7 +100,7 @@ footer
   display: flex;
   justify-content: space-between;
   background-color:whitesmoke ;
-  padding:20px;
+  padding:45px;
   border-bottom: 1px solid #5c5b5e;
 }
 
@@ -178,6 +159,6 @@ color: var(--primary);
   align-items: center;
   flex-direction: column;
   background-color:whitesmoke ;
-  padding: 5px;
+  padding: 20px;
  
 }

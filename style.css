@@ -144,7 +144,7 @@ main
   padding-bottom: 10vh;
   background-color:white ;
 }
-.leistungBigBox
+.leistungBigBox, .teamBigBox
 {
   width: 70%;
   display: flex;
@@ -228,7 +228,7 @@ main
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 15px 5px;
+  padding: 30px 5px;
   flex-grow: 1;
   margin: 10px;
   box-shadow: -1px 1px 9px -1px #000000;
@@ -237,8 +237,8 @@ main
 }
 .foto img
 {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   cursor: pointer;
  

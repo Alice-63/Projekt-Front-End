@@ -247,7 +247,7 @@ main
 {
   border:1px solid var(--primary);
 }
-.teamBox span
+.teamBox 
 {
 margin-bottom: 10px;
 }

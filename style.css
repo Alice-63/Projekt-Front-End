@@ -73,12 +73,17 @@ font-weight: bold;
 transform: scale(120%);
 
 }
-nav input, button
+nav input
 {
   outline: none;
+  border-right: none;
   padding: 3px;
   padding-left: 5px;
   color: var(--primary);
+}
+nav button
+{
+  border-left: none;
 }
 
 nav #aktiv

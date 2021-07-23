@@ -76,14 +76,31 @@ transform: scale(120%);
 nav input
 {
   outline: none;
-  border-right: none;
+ 
   padding: 3px;
   padding-left: 5px;
   color: var(--primary);
+  border: 1px solid var(--primary);
+  border-right: none;
+  font-size: 0.9em;
+}
+nav input:focus
+{
+  border: 2px solid var(--primary);
+ 
+
+  
 }
 nav button
 {
+  
+  padding: 3px;
+  background-color: white;
+  border: 1px solid var(--primary);
   border-left: none;
+  cursor: pointer;
+  font-size: 0.9em;
+
 }
 
 nav #aktiv

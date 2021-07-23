@@ -54,9 +54,6 @@ nav
   align-items: center;
   text-align: center;
   
- 
- 
-
 }
 nav a
 {
@@ -76,6 +73,14 @@ font-weight: bold;
 transform: scale(120%);
 
 }
+nav input, button
+{
+  outline: none;
+  padding: 3px;
+  padding-left: 5px;
+  color: var(--primary);
+}
+
 nav #aktiv
 
 {

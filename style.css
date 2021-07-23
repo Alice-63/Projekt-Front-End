@@ -87,9 +87,6 @@ nav input
 nav input:focus
 {
   border: 2px solid var(--primary);
- 
-
-  
 }
 nav button
 {
@@ -100,7 +97,10 @@ nav button
   border-left: none;
   cursor: pointer;
   font-size: 0.9em;
-
+}
+nav button i
+{
+  color: var(--accent)
 }
 
 nav #aktiv

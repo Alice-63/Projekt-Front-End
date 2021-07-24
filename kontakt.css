@@ -132,11 +132,39 @@ display: flex;
   justify-content: center;
   align-items: flex-start;
 }
+main h3
+{
+  color: var(--primary);
+}
 
-#form input
+#form input, #form button,textarea
 {
   width: 350px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  font-size: 1em;
+  outline: none;
+  /* transition: all 1s; */
 }
+
+#form input:focus
+{
+  border: none;
+  border-bottom: 2px solid var(--accent);
+}
+
+#form button
+{
+  border-radius: 5px;
+  border: none;
+  background-color: var(--accent);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
 
 /* //////////////////// FOOTER ////////////////////// */
 

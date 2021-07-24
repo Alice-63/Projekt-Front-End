@@ -167,8 +167,8 @@ main
 {
   width: 100%;
   margin-bottom: 200px;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   background-color:white ;
 }
 .serviceBigBox, .teamBigBox
@@ -233,7 +233,7 @@ main
   cursor: pointer;
 }
 
-/* ///////////////////// UNSERTEAM //////////////// */
+/* ///////////////////// UNSERTEAM -OURTEAM//////////////// */
 
 
 .ourteam
@@ -241,10 +241,10 @@ main
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* margin-bottom: 125px; */
+  /* margin-bottom: 200px; */
   background-color:white ;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 .teamBox
 {

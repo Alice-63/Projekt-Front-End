@@ -112,6 +112,31 @@ transform: scale(120%);
 
 /* /////////////////////  MAIN //////////////// */
 
+main
+{
+width: 100%;
+display: flex;
+}
+
+#info
+{
+  width: 50%;
+  padding: 20px;
+}
+
+#form
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#form input
+{
+  width: 350px;
+}
 
 /* //////////////////// FOOTER ////////////////////// */
 

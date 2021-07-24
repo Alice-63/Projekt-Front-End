@@ -119,6 +119,8 @@ main
     width: 100%;
     min-height: 100vh;
     position:absoulute;
+    display: flex;
+    flex-direction: column;
     background-color: var(--primary);
     padding: 25px 0;
     display: flex;
@@ -132,6 +134,14 @@ main p
    line-height: 1.8;
    margin: 0 auto;
    color: white;
+}
+
+main img
+{
+  width: 50%;
+  margin: 10px auto;
+  box-shadow: -1px 1px 9px -1px #000000;
+  border-radius: 10px;
 }
 
 /* //////////////////// FOOTER ////////////////////// */

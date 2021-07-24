@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volume Up</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
 
 </head>
@@ -37,19 +39,19 @@
         
         <section class="leistungen">
             <div class="leistungBigBox">
-                <div class="leistungenBox">
+                <div class="leistungenBox"  data-aos="fade-up-right" data-aos-duration="1500">
                     <div class="card"><i class="fas fa-shield-check"></i></div>
                     <h1>HOHE QUALITÄT</h1>
                     <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, accusamus!</span>
                     <button>MEHR...</button>
                 </div>
-                <div class="leistungenBox">
+                <div class="leistungenBox" data-aos="fade-up" data-aos-duration="1500">
                     <div class="card"><i class="fad fa-hands-usd"></i></div>
                     <h1>GUTER PREIS</h1>
                     <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, accusamus!</span>
                     <button>MEHR...</button>
                 </div>
-                <div class="leistungenBox">
+                <div class="leistungenBox" data-aos="fade-up-left" data-aos-duration="1500">
                     <div class="card"><i class="fas fa-comments-alt"></i></div>
                     <h1>ONLINE BERATUNG</h1>
                     <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, accusamus!</span>
@@ -60,7 +62,7 @@
         </section>
         <section class="unserteam">
             <div class="teamBigBox">
-                <div class="teamBox">
+                <div class="teamBox" data-aos="fade-right"  data-aos-duration="2000">
                     <div class="foto">
                         <img src="https://www.apofinanz.de/dam/jcr:01acee43-e5dd-4dff-96fb-0d1ac99416d0/_SGH0282-12x18cm.jpg" alt="">
                     </div>
@@ -73,7 +75,7 @@
                         <i class="fab fa-linkedin"></i>
                     </div>
                 </div>
-                <div class="teamBox">
+                <div class="teamBox" data-aos="fade-down" data-aos-duration="2000">
                     <div class="foto">
                         <img src="https://www.fvw.de/news/media/15/Aldiana-Stefanie-Brandes-146104-detailp.jpeg" alt="">
                     </div>
@@ -86,7 +88,7 @@
                         <i class="fab fa-linkedin"></i>
                     </div>
                 </div>
-                <div class="teamBox">
+                <div class="teamBox" data-aos="fade-left" data-aos-duration="2000">
                     <div class="foto">
                         <img src="https://www.b4bschwaben.de/cms_media/module_img/584/292055_1_gallerydetail_Quentia.jpg" alt="">
                     </div>
@@ -114,7 +116,7 @@
             </div>
                 <div class="footerBox">
                     <div class="contactSection">
-                        <div class="icon">
+                        <div class="icon" data-aos="zoom-in" data-aos-duration="2000">
                             <i class="fa fa-phone-alt"></i>
                         </div>
                         <div class="tlf">
@@ -131,7 +133,8 @@
                 </div>
             <div class="footerBox">
                 <div class="adressSection">
-                    <div class="icon">
+                    <div class="icon" data-aos="zoom-in" data-aos-duration="2000">
+                  
                         <i class="fa fa-map"></i>
                     </div>
                     <div class="adress">
@@ -144,7 +147,7 @@
             </div>
                 <div class="footerBox">
                     <div class="mailSection">
-                        <div class="icon">
+                        <div class="icon" data-aos="zoom-in" data-aos-duration="2000">
                             <i class="fa fa-envelope"></i>
                         </div>
                         <div class="mail">
@@ -166,6 +169,10 @@
 
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </div>
 </body>
 </html> 

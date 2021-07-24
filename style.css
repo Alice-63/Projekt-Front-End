@@ -28,7 +28,7 @@ header
   align-items: center;
   padding-top: 15px;
   background-color:white ;
-  position: fixed;
+  /* position: fixed; */
   border-bottom: 1px solid #5c5b5e;
   
 

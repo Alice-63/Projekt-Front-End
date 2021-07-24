@@ -165,6 +165,14 @@ main h3
   cursor: pointer;
 }
 
+@media (max-width:780px)
+{
+  main
+  {
+    display:flex;
+    flex-direction: column;
+  }
+}
 
 
 /* //////////////////// FOOTER ////////////////////// */

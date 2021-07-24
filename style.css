@@ -161,9 +161,9 @@ main
 
 
 
-/*///////////////////// leistungen ////////////////////// */
+/*///////////////////// Leistungen-Service ////////////////////// */
 
-.leistungen
+.service
 {
   width: 100%;
   margin-bottom: 200px;
@@ -171,7 +171,7 @@ main
   padding-bottom: 10vh;
   background-color:white ;
 }
-.leistungBigBox, .teamBigBox
+.serviceBigBox, .teamBigBox
 {
   width: 70%;
   display: flex;
@@ -179,7 +179,7 @@ main
   padding: 25px;
   margin: 0 auto;
 }
-.leistungenBox
+.serviceBox
 {
   display: flex;
   justify-content: center;
@@ -193,11 +193,11 @@ main
   box-shadow: -1px 1px 9px -1px #000000;
   border-radius: 10px;
 }
-.leistungenBox span
+.serviceBox span
 {
   padding: 0 50px;
 }
-.leistungenBox button
+.serviceBox button
 {
   background-color: var(--accent);
   
@@ -210,7 +210,7 @@ main
   font-weight: bold;
   margin: 10px 0;
 }
-.leistungenBox button:hover
+.serviceBox button:hover
 {
   opacity: 0.9;
 }

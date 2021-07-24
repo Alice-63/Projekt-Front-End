@@ -116,6 +116,7 @@ main
 {
 width: 100%;
 display: flex;
+margin: 50px;
 }
 
 #info
@@ -144,7 +145,7 @@ main h3
   padding: 5px 10px;
   font-size: 1em;
   outline: none;
-  /* transition: all 1s; */
+
 }
 
 #form input:focus

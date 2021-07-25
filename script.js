@@ -21,7 +21,7 @@ function next()
     {
         bild.style.backgroundImage="url(img/"+number+".png)";
         h1.innerHTML="Musik ist das Leben!"
-        number=1;
+        number=0;
     }
    
 
@@ -29,23 +29,26 @@ function next()
 
 // navbar
 
-var allA=document.getElementsByTagName("a");
-var nav=document.getElementById("nav");
-var a=false;
+
+
 
 function show()
 {
-    
-    if(a)
+    var logo=document.getElementById("logo");
+    var nav = document.getElementById("nav");
+    var header=document.getElementById("header");
+    if (nav.style.display === "flex") 
     {
-        nav.style.height="54px"
-
-    }
-    else
+      nav.style.display = "none";
+      logo.style.display="block";
+      header.style.flexDirection="row"
+    } 
+    else 
     {
-        nav.style.height="340px"
+      nav.style.display = "flex";
+      logo.style.display="none";
+      header.style.flexDirection="column"
+      
+      
     }
-   
-    
-    a=!a;
 }

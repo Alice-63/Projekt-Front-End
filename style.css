@@ -6,7 +6,7 @@ body
     font-family: "Segoe UI";
     display: flex;
     flex-direction: column;
-    background:url(img/happy.jpg) center transparent fixed no-repeat; 
+    background:url(img/happy.jpg) center transparent fixed repeat-y; 
     position: absolute;
 }
 

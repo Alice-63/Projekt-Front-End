@@ -150,6 +150,10 @@ main
   font-size: 4em;
   
 }
+#bild h1
+{
+  font-size: 2em;
+}
 #bild button
 {
   outline: none;

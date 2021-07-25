@@ -52,3 +52,19 @@ function show()
       
     }
 }
+
+// kontakt
+
+function senden()
+{
+    let input=document.querySelectorAll("input");
+    
+    for(i=0;i<input.length;i++)
+    {
+        if(input.value=" ")
+        {
+            // input[i].placeholder+=" "
+            input[i].placeholder="Bitte ausfüllen"
+        }
+    }
+}

@@ -371,9 +371,18 @@ color: var(--accent);
 
 @media (max-width:780px)
 {
-  main
+  header, nav, .serviceBigBox, .teamBigBox, .footerTop
   {
+    width: 100%;
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+  nav button, nav input
+  {
+    display: none;
+  }
+
+
 }

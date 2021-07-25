@@ -58,13 +58,25 @@ function show()
 function senden()
 {
     let input=document.querySelectorAll("input");
+    let button=document.getElementById("btn");
     
     for(i=0;i<input.length;i++)
     {
-        if(input.value=" ")
+        if(input[i].value==null)
         {
-            // input[i].placeholder+=" "
-            input[i].placeholder="Bitte ausfüllen"
+            alert("Bitte ausfüllen");
+            return false
+            
+            
         }
+        else
+        {
+            button.innerHTML="Gesendet"
+        }
+        
     }
+    
+           
+           
+    
 }

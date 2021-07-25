@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volume Up</title>
+    <title>Über Uns-Volume Up</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo-icon.png" />
     <link rel="stylesheet" href="ueberuns.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -13,14 +14,16 @@
 <body>
 <div class="wrap">
     <header>
-        <div class="logo">
-            <a href="index.html"><img src="img/logo.png" alt=""></a>
+        <div class="logo" id="logo">
+            <a href=""><img src="img/logo.png" alt="" ></a>
         </div>
-        <nav>
+        <i class="fas fa-bars" id="hamburger" onclick="show();"> </i>
+        <nav id="nav">
+    
             <a href="index.html" >Home</a>
             <a href="ueberuns.html" id="aktiv">Über Uns</a>
             <a href="kontakt.html">Kontakt</a>
-            <input type="text" placeholder="Suchen" value=""><button><i class="fas fa-search"></i></button>
+        <input type="text" placeholder="Suchen" value=""><button><i class="fas fa-search"></i></button>
         </nav>
        
     </header>

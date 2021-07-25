@@ -112,6 +112,14 @@ font-weight: bold;
 transform: scale(120%);
 }
 
+#hamburger
+{
+  color: var(--accent);
+  font-size: 1.5em;
+  margin: 15px 25px;
+  display:none;
+}
+
 /* //////////////////UEBERUNS MAIN////////////////// */
 
 main
@@ -217,12 +225,12 @@ color: var(--accent);
 
 @media (max-width:780px)
 {
-  header, nav, .footerTop
+  header, nav
   {
     width: 100%;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
   }
   nav button, nav input
@@ -233,5 +241,36 @@ color: var(--accent);
   {
     width: 90%;
   }
+  #hamburger
+  {
+    display: block;
+    cursor: pointer;
+  }
+  header
+  {
+    justify-content: space-between;
+    align-items: flex-end;
+   
+  }
+
+  nav
+  {
+    background-color:var(--secondary);
+    
+  }
+  nav a
+  {
+    color: white;
+    
+  }
+  .footerTop
+  {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
  
 }

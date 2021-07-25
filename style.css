@@ -117,10 +117,10 @@ transform: scale(120%);
 }
 #hamburger
 {
-    color: var(--accent);
-    font-size: 1.5em;
-    margin: 15px 25px;
-    display:none;
+  color: var(--accent);
+  font-size: 1.5em;
+  margin: 15px 25px;
+  display:none;
 }
 /* /////////////////////  MAIN //////////////// */
 main
@@ -379,12 +379,12 @@ color: var(--accent);
 
 @media (max-width:780px)
 {
-  nav,.serviceBigBox, .teamBigBox, .footerTop
+  nav,.serviceBigBox, .teamBigBox
   {
     width: 100%;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
   }
   nav button, nav input,nav
@@ -400,7 +400,31 @@ color: var(--accent);
   header
   {
     justify-content: space-between;
+    align-items: flex-end;
    
+  }
+
+  nav
+  {
+    background-color:var(--secondary);
+    
+  }
+  nav a
+  {
+    color: white;
+    
+  }
+  .footerTop
+  {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+  #bild
+  {
+    height: 50vh;
   }
 
 }

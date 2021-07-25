@@ -8,6 +8,7 @@ body
     flex-direction: column;
     background:url(img/happy.jpg) center transparent fixed no-repeat; 
     position: absolute;
+    transition: all 1s;
     
 }
 

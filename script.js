@@ -2,6 +2,8 @@ var bild=document.getElementById("bild");
 var h1=document.getElementById("h1");
 var number=1;
 
+
+setInterval(function(){ next()}, 2000);
 function next()
 {
     number++;
@@ -23,9 +25,12 @@ function next()
         h1.innerHTML="Musik ist das Leben!"
         number=0;
     }
-   
 
+
+    
 }
+
+
 
 // navbar
 
@@ -53,30 +58,10 @@ function show()
     }
 }
 
-// kontakt
 
-function senden()
-{
-    let input=document.querySelectorAll("input");
-    let button=document.getElementById("btn");
-    
-    for(i=0;i<input.length;i++)
-    {
-        if(input[i].value==null)
-        {
-            alert("Bitte ausfüllen");
-            return false
-            
-            
-        }
-        else
-        {
-            button.innerHTML="Gesendet"
-        }
-        
-    }
+
     
            
            
     
-}
+

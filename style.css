@@ -6,7 +6,7 @@ body
     font-family: "Segoe UI";
     display: flex;
     flex-direction: column;
-    background:url(img/happy.jpg) center transparent fixed repeat-y; 
+    background:url(img/happy.jpg) center transparent fixed no-repeat; 
     position: absolute;
 }
 
@@ -173,7 +173,7 @@ main
 .service
 {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   padding-top: 20vh;
   padding-bottom: 20vh;
   background-color:white ;
@@ -367,4 +367,13 @@ color: var(--accent);
   background-color:whitesmoke ;
   padding: 20px;
  
+}
+
+@media (max-width:780px)
+{
+  main
+  {
+    display:flex;
+    flex-direction: column;
+  }
 }

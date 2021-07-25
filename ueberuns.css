@@ -193,7 +193,7 @@ footer
 .footerBox i
 {
 font-size: 45px;
-color: var(--primary);
+color: var(--accent);
 }
 
 .mail, .adress, .tlf
@@ -203,12 +203,6 @@ color: var(--primary);
   flex-direction: column;
   justify-content: space-between;
 }
-
-
-
-
-
-
 
 .footerBottom
 {
@@ -235,6 +229,9 @@ color: var(--primary);
   {
     display: none;
   }
-
-
+  main p, main img
+  {
+    width: 90%;
+  }
+ 
 }

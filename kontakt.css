@@ -165,14 +165,7 @@ main h3
   cursor: pointer;
 }
 
-@media (max-width:780px)
-{
-  main
-  {
-    display:flex;
-    flex-direction: column;
-  }
-}
+
 
 
 /* //////////////////// FOOTER ////////////////////// */
@@ -224,7 +217,7 @@ footer
 .footerBox i
 {
 font-size: 45px;
-color: var(--primary);
+color: var(--accent);
 }
 
 .mail, .adress, .tlf
@@ -234,12 +227,6 @@ color: var(--primary);
   flex-direction: column;
   justify-content: space-between;
 }
-
-
-
-
-
-
 
 .footerBottom
 {
@@ -251,3 +238,42 @@ color: var(--primary);
   padding: 20px;
  
 }
+
+@media (max-width:780px)
+{
+  header, nav, .footerTop, main
+  {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  nav button, nav input
+  {
+    display: none;
+  }
+  main
+  {
+    margin: 0;
+  }
+  #form
+  {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  #info
+{
+  width: 80%;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+}
+

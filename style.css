@@ -115,6 +115,7 @@ nav #aktiv
 color: #182092 ;
 font-weight: bold;
 transform: scale(120%);
+border-bottom: 2px solid var(--secondary);
 }
 #hamburger
 {
@@ -183,8 +184,8 @@ main
 {
   width: 100%;
   margin-bottom: 150px;
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   background-color:white ;
 }
 .serviceBigBox, .teamBigBox
@@ -203,7 +204,6 @@ main
   flex-direction: column;
   text-align: center;
   padding: 15px;
-  flex-grow: 1;
   margin: 20px;
   box-shadow: -1px 1px 9px -1px #000000;
   border-radius: 10px;
@@ -235,7 +235,7 @@ main
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -378,7 +378,7 @@ color: var(--accent);
  
 }
 
-@media (max-width:780px)
+@media (max-width:700px)
 {
   nav,.serviceBigBox, .teamBigBox
   {
@@ -415,6 +415,10 @@ color: var(--accent);
     color: white;
     
   }
+  #bild
+  {
+    height: 50vh;
+  }
   .footerTop
   {
     width: 100%;
@@ -423,9 +427,6 @@ color: var(--accent);
     align-items:center;
     justify-content: center;
   }
-  #bild
-  {
-    height: 50vh;
-  }
+  
 
 }

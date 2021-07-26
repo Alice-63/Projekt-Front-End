@@ -108,6 +108,7 @@ nav #aktiv
 color: #182092 ;
 font-weight: bold;
 transform: scale(120%);
+border-bottom: 2px solid var(--secondary);
 }
 #hamburger
 {
@@ -246,7 +247,7 @@ color: var(--accent);
  
 }
 
-@media (max-width:780px)
+@media (max-width:700px)
 {
   header, nav 
   {

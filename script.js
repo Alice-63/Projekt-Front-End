@@ -42,10 +42,12 @@ function show()
     var logo=document.getElementById("logo");
     var nav = document.getElementById("nav");
     var header=document.getElementById("header");
+
+   
     if (nav.style.display === "flex") 
     {
       nav.style.display = "none";
-      logo.style.display="block";
+      logo.style.display="flex";
       header.style.flexDirection="row"
     } 
     else 
@@ -56,6 +58,8 @@ function show()
       
       
     }
+
+    window.location.reload(false);
 }
 
 

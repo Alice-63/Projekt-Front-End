@@ -6,7 +6,8 @@ body
     font-family: "Segoe UI";
     display: flex;
     flex-direction: column;
-    /* position: absolute; */
+    align-items: center;
+    justify-content: center;
 }
 
 :root
@@ -125,11 +126,13 @@ border-bottom: 2px solid var(--secondary);
 
 main
 {
-    width: 100%;
+    max-width: 1200px;
     min-height: 100vh;
     position:absoulute;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--secondary);
     padding: 25px 0;
     display: flex;

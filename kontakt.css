@@ -1,11 +1,13 @@
 *{box-sizing: border-box;}
 body
 {
-    height: 100%;
-    margin: 0;  
-    font-family: "Segoe UI";
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  margin: 0;  
+  font-family: "Segoe UI";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
    
 }
 
@@ -122,15 +124,34 @@ border-bottom: 2px solid var(--secondary);
 
 main
 {
-width: 100%;
+max-width: 1200px;
 display: flex;
-margin: 50px;
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
 #info
 {
-  width: 50%;
+  width: 45%;
   padding: 20px;
+  background-color: var(--secondary);
+  border-radius:10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 10px solid var(--primary);
+}
+#info h3
+{
+  color: var(--primary);
+}
+#info p
+{
+  text-align: center;
 }
 
 #form
@@ -139,16 +160,25 @@ margin: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--primary);
+  border-radius: 10px;
+  border-radius: 0 10px 10px 0;
+  border-left: 10px solid var(--secondary);
 }
-main h3
+#form h3
+{
+  color: var(--accent);
+}
+#info h3
 {
   color: var(--primary);
 }
 
 #form input, #form button,textarea
 {
-  width: 350px;
+  width: 90%;
   margin-bottom: 15px;
   padding: 5px 10px;
   font-size: 1em;
@@ -166,11 +196,16 @@ main h3
 {
   border-radius: 5px;
   border: none;
-  background-color: var(--accent);
+  background-color:var(--accent);
   color: white;
   font-weight: bold;
   padding: 10px;
   cursor: pointer;
+  transition: opacity 0.5s;
+}
+#form button:hover
+{
+  opacity: 0.9;
 }
 
 
@@ -249,7 +284,7 @@ color: var(--accent);
 
 @media (max-width:700px)
 {
-  header, nav 
+  nav 
   {
     width: 100%;
     display:flex;
@@ -257,7 +292,7 @@ color: var(--accent);
     align-items: flex-end;
     justify-content: center;
   }
-  nav button, nav input
+  nav button, nav input,nav
   {
     display: none;
   }
@@ -265,6 +300,7 @@ color: var(--accent);
   {
     justify-content: space-between;
     align-items: flex-end;
+    /* flex-direction: column; */
    
   }
 
@@ -277,6 +313,11 @@ color: var(--accent);
   {
     color: white;
     
+  }
+  #hamburger
+  {
+    display: block;
+    cursor: pointer;
   }
   main, .footerTop
   {
@@ -293,6 +334,7 @@ color: var(--accent);
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border-radius: 0;
   }
   #info
   {
@@ -302,6 +344,7 @@ color: var(--accent);
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 0;
   }
 
 

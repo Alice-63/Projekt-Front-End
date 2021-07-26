@@ -130,7 +130,7 @@ main
     position:absoulute;
     display: flex;
     flex-direction: column;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     padding: 25px 0;
     display: flex;
 }
@@ -226,7 +226,7 @@ color: var(--accent);
 
 @media (max-width:700px)
 {
-  header, nav
+  nav
   {
     width: 100%;
     display:flex;
@@ -234,7 +234,7 @@ color: var(--accent);
     align-items: flex-end;
     justify-content: center;
   }
-  nav button, nav input
+  nav button, nav input,nav
   {
     display: none;
   }
@@ -251,6 +251,7 @@ color: var(--accent);
   {
     justify-content: space-between;
     align-items: flex-end;
+    /* flex-direction: column; */
    
   }
 

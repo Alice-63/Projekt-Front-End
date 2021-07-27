@@ -8,7 +8,6 @@ body
     flex-direction: column;
     background:url(img/happy.jpg) center transparent fixed no-repeat; 
     position: absolute;
-    transition: all 1s;
     
 }
 
@@ -68,7 +67,7 @@ flex-grow: 1;
 text-decoration: none;
 color: #3D3C3F;
 font-weight: bold;
-padding: 20px;
+padding:2vh;
 transition: transform 0.3s;
 }
 

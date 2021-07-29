@@ -62,6 +62,43 @@ function show()
     
 }
 
+// Back To Top
+
+
+$(document).ready(function () {
+    
+    $(window).scroll(function(){
+
+        if($(window).scrollTop()>100)
+{
+    $("#backtotop").fadeIn()
+
+}
+else
+{
+    $("#backtotop").fadeOut()
+}
+
+    })
+
+
+var back=$("#backtotop");
+
+
+back.click(function(){
+
+    $("html,body").animate({
+        scrollTop:0
+    },700)
+
+
+
+
+
+})
+
+});
+
 
 
     

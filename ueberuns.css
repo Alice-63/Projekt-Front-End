@@ -155,7 +155,20 @@ main img
   box-shadow: -1px 1px 9px -1px #000000;
   border-radius: 10px;
 }
-
+#backtotop
+{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  cursor:pointer;
+  padding: 10px;
+  background-color: var(--primary);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
 /* //////////////////// FOOTER ////////////////////// */
 
 footer

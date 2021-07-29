@@ -305,6 +305,20 @@ color: var(--primary);
 font-size: 1.2em;
 }
 
+#backtotop
+{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  cursor:pointer;
+  padding: 10px;
+  background-color: var(--primary);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
 /* //////////////////// FOOTER ////////////////////// */
 
 footer
@@ -427,6 +441,9 @@ color: var(--accent);
     align-items:center;
     justify-content: center;
   }
-  
+  #backtotop
+  {
+    display: none;
+  }
 
 }

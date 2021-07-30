@@ -102,11 +102,14 @@ back.click(function(){
 // Kontakt Formular
 
 $(document).ready(function () {
-    
-    if($("#vorname").val()=="")
+    $("#btn").click(function(){ 
+        if($("#vorname").val()=="")
     {
         $(".vorname").text("Füllen Sie bitte alle Felder!")
-    }
+    }}
+    
+    )
+   
 
 
 });
